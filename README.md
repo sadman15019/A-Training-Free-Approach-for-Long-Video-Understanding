@@ -194,24 +194,6 @@ Results are written to `results_panels_mlx.jsonl` (one line per question, includ
 
 > **Note:** The reported results were produced with Qwen2.5-VL-7B-Instruct served through an OpenAI-compatible API. The MLX backend here runs a 4-bit quantised version of the same model and was used during development, so its numbers may differ slightly.
 
-## Future work
-
-- Finish the MF2 evaluation (455 of 868 pairs done) and repeat runs to get error bars.
-- Ablations: windowed vs. top-k selection, softmax temperature, threshold, and asymmetric vs. symmetric layout with selection held fixed.
-- A treemap-style layout that can represent any area pattern.
-- A stronger, video-aware relevance scorer in place of CLIP.
-- Using the composed panels as the front end of a lightweight multi-agent loop that revisits the most promising time regions at higher resolution.
-
-## References
-
-- Doorenbos, Spurio, and Gall. *Video Panels for Long Video Understanding.* CVPR 2026.
-- Zhang et al. *Q-Frame: Query-aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs.* ICCV 2025.
-- Liu et al. *BOLT: Boost Large Vision-Language Model Without Training for Long-form Video Understanding.* CVPR 2025.
-- Fu et al. *Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis.* CVPR 2025.
-- Zaranis et al. *Movie Facts and Fibs (MF2): A Benchmark for Long Movie Understanding.* arXiv:2506.06275, 2025.
-- Radford et al. *Learning Transferable Visual Models From Natural Language Supervision (CLIP).* ICML 2021.
-- Bai et al. *Qwen2.5-VL Technical Report.* arXiv:2502.13923, 2025.
-
 ## License
 
 This project is released under the terms in [LICENSE](LICENSE).
