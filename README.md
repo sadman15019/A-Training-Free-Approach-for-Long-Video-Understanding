@@ -1,7 +1,5 @@
 # Query-Guided Asymmetric Grid Composition: A Training-Free Approach for Long Video Understanding
 
-**Humaira Anzum Neha, Sadman Sakib**
-Department of Computer Science and Engineering, BRAC University
 
 ---
 
